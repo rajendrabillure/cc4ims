@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_subscribe"
+        android:title="Subscribe"
+        android:showAsAction="ifRoom|withText" />
+     <item android:id="@+id/menu_hangupall"
+          android:title="Hang Up All"
+          android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/menu_signout"
+          android:title="Sign Out"
+          android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/menu_exit"
+          android:title="Exit"
+          android:showAsAction="ifRoom|withText" />
+</menu>

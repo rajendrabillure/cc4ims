@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Call Center 4 IMS</string>
+    <string name="signinactivity_logo">Call Center 4 IMS</string>
+    <string name="signinbutton">Sign In</string>
+    <string name="dummy_content">GRIZZLY\nBEAR</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="title_activity_control_room">Call Center 4 IMS</string>
+
+</resources>

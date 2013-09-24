@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@color/white" >  
+
+	<TextView 
+	    android:text="Incall with" 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:layout_gravity="center" 
+	    android:id="@+id/incall_with_textview" 
+	    android:layout_marginTop="10dp" 
+	    android:textColor="@color/black">
+	</TextView>
+	<TextView 
+	    android:text="John Doe" 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:layout_gravity="center" 
+	    android:id="@+id/caller_name_textview" 
+	    android:textColor="@color/black" 
+	    android:textSize="20dp">
+	</TextView>
+	<Button 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:id="@+id/callinfo_button_transfercall" 
+	    android:text="Transfer Call" 
+	    android:layout_gravity="center" 
+	    android:layout_marginLeft="30dp" 
+	    android:layout_marginTop="10dp" 
+	    android:layout_marginRight="30dp" 
+	    android:textColor="@color/black">
+	</Button>
+	<Button 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:id="@+id/callinfo_button_hangup" 
+	    android:text="End Call" 
+	    android:layout_marginTop="2dp" 
+	    android:layout_gravity="center" 
+	    android:textColor="@color/black">
+	</Button>
+
+</LinearLayout>
